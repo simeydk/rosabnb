@@ -8,7 +8,7 @@ const logos = [
     {src: "holiday_check.png", en: "Recommended on HolidayCheck", af: "Aanbeveel op HolidayCheck"},
     {src: "afristay.jpg", en: "Afristay Traveller's Choice award", af: "Afristay Reisiger se Keuse toekenning"},
     {src: "aa_quality_assured.jpg", en: "AA Quality Assured Highly recommended", af: "AA Quality Assured hoogs aanbeveel"},
-].map(({src, en, af}) => ({src: `https://res.cloudinary.com/simeydk/image/upload/Rosabnb/partner_logos/${src}`, en, af}))
+].map(({src, en, af}) => ({src: `https://res.cloudinary.com/simeydk/image/upload/w_120,c_scale,f_auto/Rosabnb/partner_logos/${src}`, en, af}))
 
 function Awards({lang = 'en'}) {
     
