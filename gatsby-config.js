@@ -26,6 +26,8 @@ module.exports = {
         purgeOnly: [`src/css/style.css`]
       }
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sitemap`,
   ]
 };
