@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Rosa B&B: Accomodation in Oudtshoorn, South Africa `,
     description: `Rosa Bed & Breakfast, Oudtshoorn, South Africa`,
-    author: `@simeydeklerk`
+    author: `@simeydeklerk`,
+    siteUrl: `https://rosabnb.co.za`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
