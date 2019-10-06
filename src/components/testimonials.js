@@ -2,8 +2,6 @@ import React from 'react';
 import { ParallaxBanner } from 'react-scroll-parallax';
 import Carousel from './Carousel'
 
-export default Testimonials
-
 const data = [
     {
         text: "Felt like coming home! Very friendly staff, great and cozy rooms, excellent service and a marvelous breakfast.",
@@ -49,11 +47,11 @@ function TestimonalBlock({ children }) {
     )
 }
 
-function Testimonials() {
+export default function Testimonials() {
     const entries = data.map(props => <Testimonial {...props} />)
     return (
         <TestimonalBlock>
-                <Carousel className="bg-white w-full max-w-lg m-4 p-4 md:px-10 md:py-6  md:m-20 outer-shadow">
+                <Carousel className="bg-white w-full max-w-lg m-4 p-4 md:px-10 md:py-6 md:m-20 outer-shadow h-56 md:h-24">
                     {entries}
                 </Carousel>
         </TestimonalBlock>

@@ -42,7 +42,7 @@ export default function BookNow({lang}) {
         <section id="rooms">
             <h2 className="text-4xl my-16 uppercase">{headingText}</h2>
             <BookNowBlock>
-                <div className="bg-white max-w-sm m-4 p-4 md:px-10 md:py-6  md:m-20 outer-shadow">
+                <div className="bg-white max-w-md m-4 p-4 md:px-10 md:py-6  md:m-20 outer-shadow">
                     <div className="font-light leading-loose text-lg italic text-gray-800">
                         <p>{bodyText}</p>
                     </div>
