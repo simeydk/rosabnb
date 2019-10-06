@@ -32,7 +32,7 @@ const textDict = {
 }
 
 function LangButton({lang='en'}) {
-  const label = (lang === 'en' ? 'AF' : 'EN')
+  const label = (lang === 'en' ? 'AFR' : 'ENG')
   const href = (lang === 'en' ? '/afrikaans' : '/')
   return (
     <NavItem label={label} href={href} className="border p-2"/>
