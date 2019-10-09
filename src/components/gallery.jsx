@@ -16,7 +16,7 @@ export default Gallery
 
 const data = [
     "Rosabnb/IMG_0424.jpg",
-    "Rosabnb/IMG_0417.jpg",
+    // "Rosabnb/IMG_0417.jpg",
     "Rosabnb/20170904_115943_HDR.jpg",
     "Rosabnb/20170904_120120_HDR.jpg",
     "Rosabnb/20170903_165147_HDR.jpg",
@@ -31,6 +31,28 @@ const data = [
     // "images/gallery/IMG_0494.jpg",
     // "images/gallery/IMG_0509.jpg",
     // "images/gallery/IMG_0612.JPG",
+
+    "Rosabnb/gallery/rosa_01.jpg",
+    "Rosabnb/gallery/rosa_02.jpg",
+    "Rosabnb/gallery/rosa_03.jpg",
+    // "Rosabnb/gallery/rosa_04.jpg",
+    // "Rosabnb/gallery/rosa_05.jpg",
+    // "Rosabnb/gallery/rosa_06.jpg",
+    // "Rosabnb/gallery/rosa_07.jpg",
+    // "Rosabnb/gallery/rosa_08.jpg",
+    // "Rosabnb/gallery/rosa_09.jpg",
+    // "Rosabnb/gallery/rosa_10.jpg",
+    // "Rosabnb/gallery/rosa_11.jpg",
+    "Rosabnb/gallery/rosa_12.jpg",
+    "Rosabnb/gallery/rosa_13.jpg",
+    "Rosabnb/gallery/rosa_14.jpg",
+    "Rosabnb/gallery/rosa_15.jpg",
+    // "Rosabnb/gallery/rosa_16.jpg",
+    "Rosabnb/gallery/rosa_17.jpg",
+    // "Rosabnb/gallery/rosa_18.jpg",
+    "Rosabnb/gallery/rosa_19.jpg",
+    "Rosabnb/gallery/rosa_20.jpg",
+
 ]
 
 function Gallery({lang = 'en'}) {
